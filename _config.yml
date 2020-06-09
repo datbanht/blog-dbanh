@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is an example of a great static sites built in Jekyll.
 baseurl: "blog-dbanh" # the subpath of your site, e.g. /blog
 # url: "https://wwww.awesomestaticsites.com" # the base hostname & protocol for your site, e.g. http://example.com
-url: ""
+url: "https://datbanht.github.io"
 twitter_username: dbanh
 github_username:  dbanh
 
