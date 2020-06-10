@@ -21,19 +21,20 @@ gem "jekyll-athena"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-compose", "~> 0.12"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
-# platforms :mingw, :x64_mingw, :mswin, :jruby do
-#   gem "tzinfo"
-#   gem "tzinfo-data"
-# end
+platforms :mingw, :x64_mingw, :mswin, :jruby do
+  gem "tzinfo"
+  gem "tzinfo-data"
+end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Performance-booster for watching directories on Windows
-# gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
+gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
-gem 'jekyll-compose', group: [:jekyll_plugins]
+# gem 'jekyll-compose', group: [:jekyll_plugins]
