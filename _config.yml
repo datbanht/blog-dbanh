@@ -30,8 +30,8 @@ github_username:  dbanh
 
 # Build settings
 markdown: kramdown
-# theme: minima
-theme: "jekyll-athena"
+theme: minima
+# theme: "jekyll-athena"
 plugins:
   - jekyll-feed
 
