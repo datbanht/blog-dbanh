@@ -1,8 +1,9 @@
 language: ruby
 before_script:
 - rm -rf public
-script:
+- gem update --system
 - bundle update --bundler
+script:
 - bundle exec jekyll build
 branches:
  only:
