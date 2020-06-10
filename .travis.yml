@@ -1,12 +1,8 @@
 language: ruby
 rvm:
   - 2.6
-  - jruby
-  - truffleruby
 before_script:
 - rm -rf public
-- gem update --system
-- bundle update --bundler
 script:
 - bundle exec jekyll build
 branches:
