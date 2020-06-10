@@ -3,6 +3,8 @@ rvm:
   - 2.6
 before_script:
 - rm -rf public
+- gem update --system
+- bundle install
 script:
 - bundle exec jekyll build
 branches:
