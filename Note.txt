@@ -1,0 +1,5 @@
+```bash
+bundle exec jekyll post "Hello world"
+bundle exec jekyll build
+bundle exec jekyll serve
+```
